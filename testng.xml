@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <classes>
+            <class name="Activity4_suiteExample.DemoOne" />
+            <class name="Activity4_suiteExample.DemoTwo" />
+        </classes>
+    </test>
+</suite>

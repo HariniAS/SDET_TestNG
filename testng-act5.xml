@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <groups>
+        	<run>
+        		<include name="HeaderTests"> </include>
+        		<!-- <exclude name="HeaderTests"></exclude> -->
+        	</run>
+        </groups>
+        <classes>
+            <class name="testNGTests.Activity5">
+            	<!-- <methods>
+            		<include name="titleChk"></include>
+            		<exclude name="headerChk2"></exclude> 
+            	</methods> -->
+            </class>
+        </classes>
+    </test>
+</suite>

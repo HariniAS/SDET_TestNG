@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <test name="testngTest" parallel="classes">
+    	<parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="password"></parameter>
+        <classes>
+            <class name="testNGTests.Activity1"/>
+            <class name="testNGTests.Activity2"/>
+            <class name="testNGTests.Activity3"/>
+            <!-- <class name="testNGTests.Activity4"/> -->
+            <class name="testNGTests.Activity5"/>
+            <class name="testNGTests.Activity6"/>
+            <class name="testNGTests.Activity7"/>
+        </classes>
+    </test>
+</suite>
